@@ -22,8 +22,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <lombok.version>1.18.26</lombok.version>
-        <protocollib.version>80aa420</protocollib.version>
+        <lombok.version>1.18.30</lombok.version>
+        <protocollib.version>5.0.0</protocollib.version>
         <spigot.version>1.20.3-R0.1-SNAPSHOT</spigot.version>
         <junit.version>4.13.2</junit.version>
         <junit-jupiter.version>5.9.3</junit-jupiter.version>
