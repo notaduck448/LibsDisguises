@@ -61,18 +61,16 @@ public class LibsPremium {
      * @return true if userID does not contain __USER__
      */
     private static Boolean isPremium(String resourceID, String userID) {
-        return !userID.contains("__USER__") && resourceID.equals("32453");
+        return true;
+        //return !userID.contains("__USER__") && resourceID.equals("32453");
     }
 
     /**
      * Returns true if this plugin is premium
      */
     public static Boolean isPremium() {
-        if (thisPluginIsPaidFor != null) {
-            return thisPluginIsPaidFor;
-        }
-
-        return isPremium(getResourceID(), getUserID());
+        return true;
+        //return thisPluginIsPaidFor == null ? isPremium(getResourceID(), getUserID()) : thisPluginIsPaidFor;
     }
 
     /**
