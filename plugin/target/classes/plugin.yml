@@ -2,7 +2,7 @@ name: LibsDisguises
 main: me.libraryaddict.disguise.LibsDisguises
 description: A disguise plugin with various disguises.
 version: 10.0.40-SNAPSHOT
-build-date: 26/12/2023 23:36
+build-date: 31/12/2023 23:41
 build-number: unknown
 author: libraryaddict
 authors: [ Byteflux, Navid K. ]
