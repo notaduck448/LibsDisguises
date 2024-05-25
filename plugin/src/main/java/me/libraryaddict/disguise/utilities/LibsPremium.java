@@ -62,7 +62,6 @@ public class LibsPremium {
      */
     private static Boolean isPremium(String resourceID, String userID) {
         return true;
-        //return !userID.contains("__USER__") && resourceID.equals("32453");
     }
 
     /**
@@ -70,7 +69,6 @@ public class LibsPremium {
      */
     public static Boolean isPremium() {
         return true;
-        //return thisPluginIsPaidFor == null ? isPremium(getResourceID(), getUserID()) : thisPluginIsPaidFor;
     }
 
     /**

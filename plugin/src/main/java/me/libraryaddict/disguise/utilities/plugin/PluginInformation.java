@@ -45,7 +45,6 @@ public class PluginInformation {
 
     public boolean isPremium() {
         return true;
-        //return premium;
     }
 
     public String getVersion() {
@@ -71,6 +70,5 @@ public class PluginInformation {
 
     public boolean isLegit() {
         return true;
-        //return getUserID().matches("\\d+") && !getUserID().equals("12345") && getResourceID().equals("32453") && getDownloadID().matches("-?\\d+");
     }
 }
