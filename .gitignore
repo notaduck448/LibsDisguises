@@ -3,6 +3,4 @@
 .vscode
 createdFiles.lst
 inputFiles.lst
-plugin/target/classes/ANTI_PIRACY_ENCRYPTION
-plugin/target/surefire-reports/me.libraryaddict.disguise.utilities.DisguiseTypesTest.txt
-plugin/target/surefire-reports/TEST-me.libraryaddict.disguise.utilities.DisguiseTypesTest.xml
+target/
